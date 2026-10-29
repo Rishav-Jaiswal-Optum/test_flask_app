@@ -6,9 +6,9 @@ app = Flask(__name__)
 def home():
     return "Workfront Engineer Learning Azure 🚀"
 
-@app.route("/test")
+@app.route("/test") 
 def test():
-    return "Test Route Modified"
+    return "Test Route Modified 🚀"
 
 if __name__ == "__main__":
     app.run()
