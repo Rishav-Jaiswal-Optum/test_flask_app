@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Workfront Engineer Learning Git and Azure 🚀"
+    return os.getenv("MESSAGE")
 
 @app.route("/test") 
 def test():
